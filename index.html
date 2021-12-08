@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flick of The Wrist</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>FLICK OF THE WRIST</h1>
+  <p></p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>HEADS</h3>
+      <input type="image" id="imgHeads" src="img/Heads-img.jpg">
+    </div>
+    <div class="col-sm-4">
+      <h3>Your Choice</h3>
+      <p>Heads or Tails which shall you choose?</p>
+      <br>
+      <p>You choose: <b id="usersChoice"></b></p>
+      <p id="result"></p>
+      <img id="gameFlip" src="">
+      <p>Game Score: <b id="wins"></b> - <b id="losses"></b></p>
+      <button disabled id="playAgain">Play Again</button>
+    </div>
+    <div class="col-sm-4">
+      <h3>TAILS</h3>        
+      <input type="image" id="imgTails" src="img/tails_img.png">
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
